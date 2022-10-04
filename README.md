@@ -23,14 +23,23 @@ this project being wholesome and making me study the diploma all over again from
 - Memory to store or retrieve the password
 ## States
 ### State-1
+
 - ![case1Artboard 1](https://user-images.githubusercontent.com/64339763/193853947-688881da-af1f-4aeb-92f4-eb0e1e5aa1dc.png)
+
 ### State-2
+
 - ![case2Artboard 1](https://user-images.githubusercontent.com/64339763/193853950-e5088784-7ecd-456d-9892-953c011f8c26.png)
+
 ### State-3
+
 - ![case3Artboard 1](https://user-images.githubusercontent.com/64339763/193853952-9703494e-c894-4cc7-9ce9-7a2d3f385fbf.png)
+
 ### State-4
+
 - ![case4Artboard 1](https://user-images.githubusercontent.com/64339763/193853959-cdfaa293-91ea-4dfb-9998-cd13e67b8fd4.png)
+
 ### State-5
+
 - ![case5Artboard 1](https://user-images.githubusercontent.com/64339763/193853964-5120b895-4a2b-4457-aea1-5135ee937e35.png)
 
 
