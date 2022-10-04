@@ -1,0 +1,13 @@
+#include "gpio.h"
+#include <util/delay.h>
+int main(void)
+{
+	GPIO_setupPinDirection(PORTC_ID, PIN0_ID, PIN_OUTPUT);
+	while(1)
+	{
+		GPIO_writePin(PORTC_ID, PIN0_ID, LOGIC_HIGH);
+		_delay_ms(5000);
+		GPIO_writePin(PORTC_ID, PIN0_ID, LOGIC_LOW);
+
+	}
+}

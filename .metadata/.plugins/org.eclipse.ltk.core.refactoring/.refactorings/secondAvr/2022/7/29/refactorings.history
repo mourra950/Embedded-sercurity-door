@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;secondAvr/secondAvr&apos; to &apos;secondAvr.c&apos;" description="Rename resource &apos;secondAvr&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="secondAvr" name="secondAvr.c" stamp="1657898179947" updateReferences="true"/>
+</session>

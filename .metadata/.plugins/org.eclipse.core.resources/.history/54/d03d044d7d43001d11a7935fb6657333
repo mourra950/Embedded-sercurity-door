@@ -1,0 +1,221 @@
+#include "lcd.h"
+#include "gpio.h"
+#include <avr/io.h>
+#include <util/delay.h>
+#include "uart.h"
+#include "common_macros.h"
+#include "std_types.h"
+#include "timer0.h"
+#include "dcMotor.h"
+#include <avr/interrupt.h>
+
+uint8 NumberOftrys = 0;
+unsigned char g_tick = 0;
+#define MC2_READY 0x10
+
+void StartBuzzer() {
+	for (int i = 0; i < 3; i++) {
+		Buzzon();
+		timerreset();
+		g_tick = 0;
+		while (g_tick < 10) {
+		}
+		Buzzoff();
+		g_tick = 0;
+		while (g_tick < 20) {
+		}
+
+	}
+
+}
+
+void StartDoor() {
+	MotorM(ClockWise_Motor);
+	g_tick = 0;
+	timerreset();
+	while (g_tick < 80) {
+	}
+	MotorM(MotorDisabled);
+	g_tick = 0;
+	timerreset();
+	while (g_tick < 60) {
+	}
+	MotorM(AntiClock_Motor);
+	g_tick = 0;
+	timerreset();
+	while (g_tick < 80) {
+	}
+	MotorM(MotorDisabled);
+}
+
+void Toggle(void) {
+	g_tick++;
+}
+
+
+uint8 case1(void) {
+	uint8 eepromval = 0, count = 0;
+	uint8 pass[8];
+	//receive the 2 passwords
+	for (int i = 0; i < 8; i++) {
+		pass[i] = UART_recieveByte();
+	}
+	//compare if both password are equal
+	for (int i = 0; i < 4; i++) {
+		if (pass[i] == pass[i + 4])
+			count++;
+	}
+	//if the 4 numbers are equal save in memory
+	if (count == 4) {
+		for (int i = 0; i < 4; i++) {
+			_delay_ms(200);
+			EEPROM_writeByte(i, pass[i]);
+		}
+
+		//success return code to the main screen
+		UART_sendByte(2);
+		return 2;
+	} else {
+		//failed return 1 to the main screen to repeat case 1
+		UART_sendByte(1);
+		return 1;
+	}
+}
+
+//process input and return it to change the case
+uint8 case2(void) {
+	return  UART_recieveByte();
+}
+
+uint8 case3(void) {
+
+	uint8 error = 0;
+	uint8 eepromval = 0;
+	uint8 pass[8];
+	while (UART_recieveByte() != MC2_READY) {
+		}
+
+	for (int i = 0; i < 4; i++) {
+		pass[i] = UART_recieveByte();
+	}
+	for (int i = 0; i < 4; i++) {
+		EEPROM_readByte(i, &eepromval);
+		_delay_ms(100);
+		pass[i+4] = eepromval;
+	}
+	for (int i = 0; i < 4; i++) {
+		if (pass[i] == pass[i + 4]) {
+
+		} else {
+			error++;
+		}
+	}
+	if (error == 0) {
+		NumberOftrys = 0;
+		StartDoor();
+		UART_sendByte(2);
+		return 2;
+	} else {
+		NumberOftrys++;
+		if (NumberOftrys < 3)
+		{
+
+			UART_sendByte(3);
+			return 3;
+		} else {
+			NumberOftrys = 0;
+			StartBuzzer();
+			UART_sendByte(5);
+
+			return 5;
+		}
+	}
+
+}
+uint8 case4(void) {
+	uint8 error = 0;
+	uint8 eepromval = 0;
+	uint8 pass[8];
+	for (int i = 0; i < 4; i++) {
+		pass[i] = UART_recieveByte();
+	}
+	for (int i = 0; i < 4; i++) {
+		EEPROM_readByte(i, &eepromval);
+		pass[i+4] = eepromval;
+	}
+	for (int i = 0; i < 4; i++) {
+		if (pass[i] == pass[i + 4]) {
+
+		} else {
+			error++;
+		}
+	}
+	if (error == 0) {
+		NumberOftrys = 0;
+		UART_sendByte(1);
+		return 1;
+	} else {
+		NumberOftrys++;
+		if (NumberOftrys < 3) {
+			UART_sendByte(4);
+
+			return 4;
+		} else {
+			StartBuzzer();
+			UART_sendByte(5);
+
+			return 5;
+		}
+	}
+}
+uint8 case5(void) {
+	return 2;
+}
+
+
+int main(void) {
+
+	SREG |= (1 << 7);
+
+	config_uart config = { B_9600, EigthBits, disabled_parity, stop_one };
+
+	config_timer config_timer = { 0, 0, Timer_PORTNormal, Timer_Normalmode,
+			timerF_CPU1024, TimerOverflowInt };
+
+	TWI_init();
+
+	LCD_init();
+
+	Buzzinit();
+
+	timerinit(&config_timer);
+
+	UART_init(&config);
+
+	MotorInit();
+
+	TIMER0_setCallback(Toggle);
+
+	GPIO_setupPinDirection(PORTA_ID, PIN0_ID, PIN_OUTPUT);
+	UART_sendByte(MC2_READY);
+
+	uint8 CASE = 1;
+	while (1) {
+		//case 1
+		if (CASE == 1)
+			CASE = case1();
+		//case 2
+		if (CASE == 2)
+			CASE = case2();
+		//case 3
+		if (CASE == 3)
+			CASE = case3();
+		//case 4
+		if (CASE == 4)
+			CASE = case4();
+		//case 5
+		if (CASE == 5)
+			CASE = case5();
+
+	}
+}

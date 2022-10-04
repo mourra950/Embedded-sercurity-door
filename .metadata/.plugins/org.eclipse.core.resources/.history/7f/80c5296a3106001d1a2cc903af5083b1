@@ -1,0 +1,26 @@
+typedef enum
+{
+	B_4800=4800,B_9600=9600,B_14400=14400,B_19200=19200
+}BaudRate_uart;
+
+typedef enum
+{
+	FiveBits=0x00,SixBits=0x02,SevenBits=0x04,EigthBits=0x06
+}Bitdata_uart;
+typedef enum
+{
+	disabled_parity=0x00,even_parity=0x20,odd_parity=0x30
+}Parity_uart;
+
+typedef enum
+{
+	stop_one=0,stop_two=1
+}StopBit_uart;
+
+typedef struct
+{
+	BaudRate_uart	baud;
+	Bitdata_uart	databit;
+	Parity_uart		parity;
+	StopBit_uart	stopbit;
+}config_timer;

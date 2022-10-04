@@ -1,0 +1,3483 @@
+00:57:04 **** Build of configuration Debug for project a ****
+make all 
+Building file: ../buzztest.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"buzztest.d" -MT"buzztest.o" -c -o "buzztest.o" "../buzztest.c"
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0x460000, State 0x10000
+C:\WinAVR-20100110\utils\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [buzztest.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:36:00 **** Incremental Build of configuration Debug for project a ****
+make all 
+Building file: ../buzztest.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"buzztest.d" -MT"buzztest.o" -c -o "buzztest.o" "../buzztest.c"
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0x460000, State 0x10000
+C:\WinAVR-20100110\utils\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [buzztest.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:36:03 **** Incremental Build of configuration Debug for project buzztest ****
+make all 
+Building target: buzztest.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,buzztest.map -mmcu=atmega16 -o "buzztest.elf"   
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0x460000, State 0x10000
+C:\WinAVR-20100110\utils\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [buzztest.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:36:04 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0x460000, State 0x10000
+C:\WinAVR-20100110\utils\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [finaleProject.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:36:04 **** Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../buzzer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"buzzer.d" -MT"buzzer.o" -c -o "buzzer.o" "../buzzer.c"
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0x460000, State 0x10000
+C:\WinAVR-20100110\utils\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [buzzer.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:36:05 **** Clean-only build of configuration Debug for project timertest ****
+make clean 
+rm -rf  ./gpio.o ./main.o ./timer0.o  sizedummy  timertest.lss  ./gpio.d ./main.d ./timer0.d  timertest.elf
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0x460000, State 0x10000
+C:\WinAVR-20100110\utils\bin\rm.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: [clean] Error 1 (ignored)
+ 
+01:36:06 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+AllocationBase 0x0, BaseAddress 0x71540000, RegionSize 0x460000, State 0x10000
+C:\WinAVR-20100110\utils\bin\sh.exe: *** Couldn't reserve space for cygwin's heap, Win32 error 0
+make: *** [gpio.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:42:12 **** Incremental Build of configuration Debug for project a ****
+make all 
+Building file: ../buzztest.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"buzztest.d" -MT"buzztest.o" -c -o "buzztest.o" "../buzztest.c"
+In file included from ../buzztest.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../buzztest.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building target: a.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,a.map -mmcu=atmega16 -o "a.elf"  ./buzztest.o ./gpio.o   
+Finished building target: a.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S a.elf  >"a.lss"
+Finished building: a.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:42:17 **** Incremental Build of configuration Debug for project buzztest ****
+make all 
+Building target: buzztest.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,buzztest.map -mmcu=atmega16 -o "buzztest.elf"   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o:(.init9+0x0): undefined reference to `main'
+make: *** [buzztest.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:42:18 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:78: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:111: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../icu.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"icu.d" -MT"icu.o" -c -o "icu.o" "../icu.c"
+../icu.c: In function 'Icu_setCallBack':
+../icu.c:82: warning: function return types not compatible due to 'volatile'
+Finished building: ../icu.c
+ 
+Building file: ../keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"keypad.d" -MT"keypad.o" -c -o "keypad.o" "../keypad.c"
+Finished building: ../keypad.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:145: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"uart.d" -MT"uart.o" -c -o "uart.o" "../uart.c"
+Finished building: ../uart.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   11380 bytes (69.5% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:42:20 **** Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../buzzer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"buzzer.d" -MT"buzzer.o" -c -o "buzzer.o" "../buzzer.c"
+In file included from ../buzzer.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../buzzer.c
+ 
+Building file: ../dcMotor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"dcMotor.d" -MT"dcMotor.o" -c -o "dcMotor.o" "../dcMotor.c"
+In file included from ../dcMotor.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../dcMotor.c
+ 
+Building file: ../external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"external_eeprom.d" -MT"external_eeprom.o" -c -o "external_eeprom.o" "../external_eeprom.c"
+Finished building: ../external_eeprom.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:145: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:69: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:55: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:106: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:187: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:191: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:199: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building file: ../timer0.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"timer0.d" -MT"timer0.o" -c -o "timer0.o" "../timer0.c"
+In file included from ../timer0.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../timer0.c
+ 
+Building file: ../twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"twi.d" -MT"twi.o" -c -o "twi.o" "../twi.c"
+Finished building: ../twi.c
+ 
+Building file: ../uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"uart.d" -MT"uart.o" -c -o "uart.o" "../uart.c"
+Finished building: ../uart.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10832 bytes (66.1% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:42:23 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:38: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../main.c
+ 
+Building file: ../timer0.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"timer0.d" -MT"timer0.o" -c -o "timer0.o" "../timer0.c"
+In file included from ../timer0.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../timer0.c
+ 
+Building target: timertest.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,timertest.map -mmcu=atmega16 -o "timertest.elf"  ./gpio.o ./main.o ./timer0.o   
+Finished building target: timertest.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S timertest.elf  >"timertest.lss"
+Finished building: timertest.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:42:28 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build of configuration Debug for project buzztest ****
+
+Nothing to build for project buzztest
+01:42:29 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   11380 bytes (69.5% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:42:29 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10832 bytes (66.1% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:42:30 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:58:25 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:58:26 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:127: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:160: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12644 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:58:27 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:98: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:179: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:183: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:191: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10822 bytes (66.1% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:58:28 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:12:37 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:12:38 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12644 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:12:38 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:98: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:179: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:183: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:191: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10884 bytes (66.4% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:12:39 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:14:11 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:14:11 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12644 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:14:11 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:98: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:179: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:183: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:191: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10884 bytes (66.4% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:14:12 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:39 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:39 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12644 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:40 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:98: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:179: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:183: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:191: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10884 bytes (66.4% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:40 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:43 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:43 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12644 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:44 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10884 bytes (66.4% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:44 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:56 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:57 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12644 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:57 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:98: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:179: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:183: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:191: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:28:58 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:29:42 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:29:43 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12644 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:29:43 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:98: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:179: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:183: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:191: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:29:44 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:31:07 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:31:07 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12644 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:31:07 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:98: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:180: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:184: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:192: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:31:08 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:36:45 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:36:45 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:129: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:162: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12650 bytes (77.2% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:36:46 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:101: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:184: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:188: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:196: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:36:47 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:23 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:23 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:124: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:157: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:24 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:24 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:26 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:26 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:26 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:27 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:28 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:28 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:29 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:29 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:30 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:30 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:30 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:31 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:41:38 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:41:39 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:41:39 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:102: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:185: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:189: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:197: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10666 bytes (65.1% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:41:40 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:41:43 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:41:44 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:41:44 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10666 bytes (65.1% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:41:44 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:03 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:04 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:125: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:158: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12848 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:04 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10666 bytes (65.1% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:05 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:06 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:06 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12848 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:06 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10666 bytes (65.1% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:07 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:07 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:08 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12848 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:08 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10666 bytes (65.1% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:08 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:21 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:22 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12848 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:22 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:102: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:185: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:189: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:197: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:23 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:24 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:24 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12848 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:25 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:25 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:27 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:27 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:125: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:158: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:28 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:102: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:185: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:189: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:197: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:29 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:31 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:31 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:31 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:45:32 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:21 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:21 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:125: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:158: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:22 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:22 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:23 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:23 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:23 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:23 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:24 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:24 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12620 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:24 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10896 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:25 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:43 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:43 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:124: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:157: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12614 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:44 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:101: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:184: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:188: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:196: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:45 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:46 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:46 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12614 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:46 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:46 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:47 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:48 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12614 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:48 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:47:48 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:41 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:42 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:124: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:157: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12614 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:42 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:43 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:43 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:43 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12614 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:44 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:44 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:44 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:44 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12614 bytes (77.0% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:45 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:49:45 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:50:45 **** Incremental Build of configuration Debug for project a ****
+make all 
+Building file: ../buzztest.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"buzztest.d" -MT"buzztest.o" -c -o "buzztest.o" "../buzztest.c"
+In file included from ../buzztest.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../buzztest.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building target: a.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,a.map -mmcu=atmega16 -o "a.elf"  ./buzztest.o ./gpio.o   
+Finished building target: a.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S a.elf  >"a.lss"
+Finished building: a.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:50:48 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:126: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:159: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../icu.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"icu.d" -MT"icu.o" -c -o "icu.o" "../icu.c"
+../icu.c: In function 'Icu_setCallBack':
+../icu.c:82: warning: function return types not compatible due to 'volatile'
+Finished building: ../icu.c
+ 
+Building file: ../keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"keypad.d" -MT"keypad.o" -c -o "keypad.o" "../keypad.c"
+Finished building: ../keypad.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:145: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"uart.d" -MT"uart.o" -c -o "uart.o" "../uart.c"
+Finished building: ../uart.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12842 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:50:49 **** Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:50:50 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:38: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../main.c
+ 
+Building file: ../timer0.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"timer0.d" -MT"timer0.o" -c -o "timer0.o" "../timer0.c"
+In file included from ../timer0.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../timer0.c
+ 
+Building target: timertest.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,timertest.map -mmcu=atmega16 -o "timertest.elf"  ./gpio.o ./main.o ./timer0.o   
+Finished building target: timertest.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S timertest.elf  >"timertest.lss"
+Finished building: timertest.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:55:08 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:55:08 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12842 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:55:08 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Building file: ../secondAvr.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"secondAvr.d" -MT"secondAvr.o" -c -o "secondAvr.o" "../secondAvr.c"
+In file included from ../secondAvr.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../secondAvr.c: In function 'StartBuzzer':
+../secondAvr.c:18: warning: implicit declaration of function 'Buzzon'
+../secondAvr.c:23: warning: implicit declaration of function 'Buzzoff'
+../secondAvr.c: In function 'case1':
+../secondAvr.c:72: warning: implicit declaration of function 'EEPROM_writeByte'
+../secondAvr.c:57: warning: unused variable 'eepromval'
+../secondAvr.c: In function 'case3':
+../secondAvr.c:102: warning: implicit declaration of function 'EEPROM_readByte'
+../secondAvr.c: In function 'main':
+../secondAvr.c:189: warning: implicit declaration of function 'TWI_init'
+../secondAvr.c:193: warning: implicit declaration of function 'Buzzinit'
+../secondAvr.c:201: warning: implicit declaration of function 'TIMER0_setCallback'
+Finished building: ../secondAvr.c
+ 
+Building target: secondAvr.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,secondAvr.map -mmcu=atmega16 -o "secondAvr.elf"  ./buzzer.o ./dcMotor.o ./external_eeprom.o ./gpio.o ./lcd.o ./secondAvr.o ./timer0.o ./twi.o ./uart.o   
+Finished building target: secondAvr.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S secondAvr.elf  >"secondAvr.lss"
+Finished building: secondAvr.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:55:09 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:55:11 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:55:11 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12842 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:55:11 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:55:11 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:03:18 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:03:18 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Building file: ../finaleProject.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=8000000UL -MMD -MP -MF"finaleProject.d" -MT"finaleProject.o" -c -o "finaleProject.o" "../finaleProject.c"
+In file included from ../finaleProject.c:5:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../finaleProject.c: In function 'case3':
+../finaleProject.c:126: warning: control reaches end of non-void function
+../finaleProject.c: In function 'case4':
+../finaleProject.c:159: warning: control reaches end of non-void function
+Finished building: ../finaleProject.c
+ 
+Building target: finaleProject.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,finaleProject.map -mmcu=atmega16 -o "finaleProject.elf"  ./finaleProject.o ./gpio.o ./icu.o ./keypad.o ./lcd.o ./uart.o   
+Finished building target: finaleProject.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S finaleProject.elf  >"finaleProject.lss"
+Finished building: finaleProject.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12842 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:03:19 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:03:19 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:03:20 **** Incremental Build of configuration Debug for project a ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 a.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4932 bytes (30.1% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:03:21 **** Incremental Build of configuration Debug for project finaleProject ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 finaleProject.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   12842 bytes (78.4% Full)
+(.text + .data + .bootloader)
+
+Data:        124 bytes (12.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:03:21 **** Incremental Build of configuration Debug for project secondAvr ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 secondAvr.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:   10888 bytes (66.5% Full)
+(.text + .data + .bootloader)
+
+Data:         24 bytes (2.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:03:21 **** Incremental Build of configuration Debug for project timertest ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 timertest.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    2396 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
