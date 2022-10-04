@@ -1,5 +1,3 @@
-
-
 #ifndef DCMOTOR_H_
 #define DCMOTOR_H_
 #include "std_types.h"
